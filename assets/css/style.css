@@ -115,7 +115,7 @@ html {
 
 .title1 {
     font-family: 'Cinzel', serif;
-    grid-column: 2 / span 5;
+    grid-column: 2 / span 6;
     grid-row: 2 / span 1;
     color: white;
     font-size: 34px;
@@ -123,6 +123,9 @@ html {
     z-index: 0;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+    position: relative;
+    left: -30px;
+    top: 15px;
 }
 
 .separator1 {
@@ -132,6 +135,10 @@ html {
     background-repeat: no-repeat;
     background-size: auto;
     z-index: 0;
+    position: relative;
+    left: -30px;
+    top: 10px;
+    margin: -10px;
 }
 
 .title2 {
@@ -144,4 +151,8 @@ html {
     z-index: 0;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+    position: relative;
+    left: -30px;
+    top: -15px;
+    line-height: 23px;
 }
