@@ -147,6 +147,7 @@ html {
     left: -30px;
     top: 10px;
     margin: -10px;
+    border: none;
 }
 
 .sub-title {
@@ -163,4 +164,17 @@ html {
     left: -30px;
     top: -15px;
     line-height: 23px;
+}
+
+.mls-logo {
+    float: left;
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    z-index: 0;
+    width: 50px;
+    background-color: black;
+    border-style: solid;
+    border-color: black;
+    border-width: 5px;
 }
