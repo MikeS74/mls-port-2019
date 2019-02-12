@@ -22,6 +22,7 @@ html {
 
 /*Bkg img size and postion adjustments*/
 /*so menu items don't clash with image*/
+/*/////////////////////////////////////////////////*/
 @media (max-width: 1200px) {
     .cog-bkgd {
         background-position: bottom;
@@ -45,6 +46,7 @@ html {
         background-size: 800px;
     }
 }
+/*/////////////////////////////////////////////////*/
 
 /*Inner shadow laid over bkgd img that conforms to screen size*/
 .inner-shadow1 {
