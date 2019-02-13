@@ -46,6 +46,7 @@ html {
         background-size: 800px;
     }
 }
+
 /*/////////////////////////////////////////////////*/
 
 /*Inner shadow laid over bkgd img that conforms to screen size*/
@@ -121,6 +122,15 @@ html {
     height: 100vh;
 }
 
+.paper-texture {
+    width: 100%;
+    height: 100vh;
+    background-image: url(../img/black-paper-45-percent.png);
+    mix-blend-mode: screen;
+    position: absolute;
+    z-index: 1;
+}
+
 .main-title {
     font-family: 'Cinzel', serif;
     grid-column: 2 / span 6;
@@ -128,7 +138,7 @@ html {
     color: white;
     font-size: 34px;
     letter-spacing: 5.8px;
-    z-index: 0;
+    z-index: 2;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     position: relative;
@@ -157,7 +167,7 @@ html {
     color: white;
     font-size: 20px;
     letter-spacing: 2px;
-    z-index: 0;
+    z-index: 2;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     position: relative;
@@ -171,7 +181,7 @@ html {
     position: absolute;
     top: 15px;
     left: 15px;
-    z-index: 0;
+    z-index: 2;
     width: 50px;
     background-color: black;
     border-style: solid;
@@ -180,7 +190,7 @@ html {
 }
 
 .social-icons {
-    z-index: 0;
+    z-index: 2;
     grid-column: 9 /span 3;
     grid-row: 1 / span 1;
 }
@@ -199,7 +209,7 @@ html {
 }
 
 nav {
-    z-index: 0;
+    z-index: 2;
     grid-column: 11 /span 2;
     grid-row: 2 / span 3;
     font-family: 'Teko', sans-serif;
@@ -221,4 +231,5 @@ nav {
     top: 23px;
     color: white;
     text-align: right;
+    z-index: 2;
 }
