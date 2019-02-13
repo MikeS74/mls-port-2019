@@ -4,3 +4,7 @@ window.onload = function () {
     console.log(intFrameHeight);
 
 };
+
+if ('CSS' in window && CSS.supports('background-blend-mode', 'screen')) {
+	console.log("background-blend-mode is suported");
+};
