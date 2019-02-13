@@ -3,8 +3,8 @@ window.onload = function () {
     var intFrameHeight = window.innerHeight;
     console.log(intFrameHeight);
 
-    if ('CSS' in window && CSS.supports('mix-blend-mode', 'screen')) {
-        console.log("mix-blend-mode is suported");
-    };
+};
 
+if ('CSS' in window && CSS.supports('mix-blend-mode', 'screen')) {
+    console.log("mix-blend-mode is suported");
 };
