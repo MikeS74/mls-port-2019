@@ -8,6 +8,12 @@ html {
     background-color: black;
 }
 
+body {
+    -webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	font-smoothing: antialiased;
+}
+
 /*Initial bkgd img setup for desktop screen size*/
 .cog-bkgd {
     display: block;
@@ -139,8 +145,10 @@ html {
     font-size: 34px;
     letter-spacing: 5.8px;
     z-index: 2;
+/*
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+*/
     position: relative;
     left: -30px;
     top: 15px;
@@ -168,8 +176,10 @@ html {
     font-size: 20px;
     letter-spacing: 2px;
     z-index: 2;
+/*
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+*/
     position: relative;
     left: -30px;
     top: -15px;
